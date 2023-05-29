@@ -1,7 +1,7 @@
 .container.contact__container {
   width: 58%;
   display: grid;
-  grid-template-columns: 30% 58%;
+  grid-template-columns: 1fr 1fr;
   gap: 12%;
 }
 
@@ -57,7 +57,7 @@ textarea {
 /*------- Media Queries(Medium Devices) ------*/
 @media screen and (max-width: 1024px) {
   .conatiner .contact__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }
